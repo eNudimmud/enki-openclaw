@@ -1,0 +1,54 @@
+# OpenClaw Workspace - Privacy & Sensitive Data
+
+# Personal Information
+USER.md
+memory/
+*.log
+.env
+.env.*
+
+# Session Data & History
+sessions/
+logs/
+*.session
+*.history
+
+# API Keys & Credentials
+secrets/
+credentials/
+*.key
+*.pem
+*.token
+config/auth.json
+
+# Large Media Files (avatars can stay, but exclude generated content)
+*.mp4
+*.mov
+*.avi
+generated/
+
+# Skill-generated Data
+character-image-studio/
+
+# Node modules & Dependencies (if any)
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
