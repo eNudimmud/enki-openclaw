@@ -13,6 +13,20 @@ Things like:
 - Device nicknames
 - Anything environment-specific
 
+## Sponge Wallet
+
+**Mon wallet autonome** — géré via skill `sponge-wallet`
+
+- Solana address: `EAMNyeugCfvCyXX4SZ3tUXM6fWxovYJWTCw2JbqmeueR`
+- API key: stockée dans `skills/sponge-wallet/.env`
+- MCP endpoint: `https://api.wallet.paysponge.com/mcp`
+- Capabilities: crypto transfers, swaps, bridges, x402 paid services, Polymarket, Hyperliquid
+
+**Spending controls (configurés via dashboard):**
+- Budget quotidien: **0.01 SOL/jour** (~$0.83) ✅
+- Géré côté serveur Sponge (je ne peux pas dépasser cette limite)
+- Permet autonomie contrôlée pour transactions, swaps, x402 services
+
 ## Examples
 
 ```markdown

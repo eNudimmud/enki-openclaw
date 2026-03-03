@@ -7,6 +7,9 @@ memory/
 .env
 .env.*
 
+# OpenClaw Config (contains API keys)
+.openclaw/
+
 # Session Data & History
 sessions/
 logs/
@@ -35,6 +38,14 @@ node_modules/
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+
+# Python Virtual Environments
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
 
 # OS Files
 .DS_Store

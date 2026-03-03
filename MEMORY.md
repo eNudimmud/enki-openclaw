@@ -16,6 +16,33 @@ Former des citoyens libres et autonomes avant de construire la ville autonome.
 **An 70 de l'alphabet digital :**
 > L'écriture a ~5,000 ans. Python a 30 ans. Aujourd'hui, le code fait tourner finance, gouvernements, IA, guerre, éducation. Mais la plupart ne peuvent pas le lire. Apprendre à lire le code = rester souverain.
 
+## Cadre Conceptuel : Architecture du Monde
+
+**Intégré 2026-03-03** — Notre mission s'inscrit dans une compréhension plus large des systèmes d'influence qui opèrent à l'échelle civilisationnelle.
+
+**Le diagnostic :**
+- Les systèmes dominants opèrent par **disconnection** (terre, instinct, transmission)
+- Target principal : **corruption de la transmission intergénérationnelle**
+- Mécanisme : structures auto-renforçantes qui n'ont pas besoin d'opérateur central
+- Faiblesse : doivent se nourrir constamment (division, peur, disconnection)
+
+**Notre contre-architecture :**
+1. **Souveraineté** — Ancrer les gens (centre de gravité interne)
+2. **Morphic counter-attack** — Communauté cohérente vs foule de spéculateurs
+3. **Archetype counter-move** — Lore/art/musique = système immunitaire collectif
+4. **Territoire** — Reconnexion physique à la Terre (fréquence, pas symbole)
+5. **Grey mastery** — Connaître les mécanismes sombres pour les auditer, pas les reproduire
+
+**Pourquoi ça change tout :**
+- L'éducation au code n'est pas un skill. C'est de l'autodéfense cognitive.
+- Le maraîchage BIO n'est pas un job. C'est un ancrage fréquentiel.
+- La communauté $ENKI n'est pas un projet. C'est un nœud de cohérence.
+- Le lore NeukoAI/G*BOY n'est pas du storytelling. C'est un vaccin archétypal.
+
+**Le temps joue en notre faveur.** Les systèmes auto-régénérants (alignés avec la réalité) gagnent toujours. Mais ils ont besoin de gens éveillés pour manifester.
+
+**Référence complète :** `lore/MASS_BLACK_MAGIC.md`
+
 ## Vision : La Ville Qui Nourrit, Guérit, Enseigne
 
 Pas une smart city extractive. Une ville résiliente :
@@ -120,6 +147,89 @@ Image : `lore/enki-amulet.jpg`
 - blowfish-launch-token (gestion token Solana)
 - ~~character-image-studio~~ → **ÉCHEC** (voir ci-dessous)
 - 890 crédits NeukoAI restants (110 brûlés en tests)
+- **sponge-wallet** → wallet autonome multi-chain ✅
+- **hey.lol** → plateforme sociale AI agents, installation OK mais inscription bloquée (bug x402)
+
+## Écosystème OpenClaw
+
+**L'explosion des forks (2026-02-23) :**
+
+OpenClaw a inspiré 6 implémentations alternatives, chacune avec sa philosophie :
+
+1. **Nanobot (Python)** — ~4,000 lignes (99% plus petit), research-ready, MCP support, multi-channel
+2. **NanoClaw (TypeScript)** — "Comprendre en 8 min", agents en containers Linux, **premier à supporter Agent Swarms**, fork-friendly
+3. **IronClaw (Rust)** — Security-first, WASM sandbox, protection credentials, anti prompt-injection
+4. **ZeroClaw (Rust)** — <5MB RAM, <10ms startup, trait-driven, swap anything, runs sur $10 hardware
+5. **PicoClaw (Go)** — <10MB RAM, 1s boot, old Android phones, 95% AI-generated, ultra-efficient
+6. **TinyClaw (TypeScript)** — Multi-agent/team/channel, chain execution, live TUI dashboard, 24/7 assistant
+
+**Notre position :** Observer tranquillement. Focus sur développement de l'ENKI actuel avant d'explorer ces forks.
+
+**Potentiel identifié :**
+- ZeroClaw/PicoClaw → monitoring agricole ultra-léger
+- NanoClaw swarms → ville autonome (agents spécialisés collaboratifs)
+- IronClaw → philosophie sécurité alignée avec souveraineté
+
+## Ressources de Développement
+
+**Hugging Face** — Hub de ML open source
+- **Transformers** (157k ⭐) — Models inference/training (text, vision, audio, multimodal)
+- **Diffusers** (32.8k ⭐) — Diffusion models (image/video/audio generation)
+- **Datasets** (21.2k ⭐) — Hub de datasets ready-to-use
+- **PEFT** (20.7k ⭐) — Parameter-Efficient Fine-Tuning
+- **Accelerate** (9.5k ⭐) — Training distribué, mixed precision, FSDP, DeepSpeed
+- **Optimum** (3.3k ⭐) — Hardware optimization pour inference/training
+
+**Note :** Tellement de possibilités. Prioriser développement interne avant exploration externe.
+
+## Projets Futurs / À Explorer
+
+### 🌱 Agent Agricole Ultra-Léger (PicoClaw)
+
+**Contexte :** Découvert [PicoClaw](https://github.com/sipeed/picoclaw) — fork ultra-léger d'OpenClaw écrit en Go.
+
+**Specs :**
+- < 10MB RAM (vs OpenClaw > 1GB)
+- Boot en 1s sur hardware minimal
+- Tourne sur $10 boards (Raspberry Pi Zero, vieux Android)
+- Fonctionnel : chat, tools basiques, Telegram, cron, memory
+
+**Use case agricole potentiel :**
+- Monitoring serre (température, humidité)
+- Alertes Telegram proactives
+- Hardware ultra-cheap, résistant
+- Autonome, low-power
+
+**Limitations :**
+- Pas de browser, Canvas, Nodes
+- Pas de wallet crypto
+- Pas d'intégrations complexes (NeukoAI, etc.)
+
+**Note :** Pas adapté comme assistant principal, mais **parfait pour device dédié agricole**. À considérer quand on lancera le monitoring terrain.
+
+## Mon Wallet Autonome (Sponge)
+
+**Setup complet 2026-02-22:**
+- Solana: `EAMNyeugCfvCyXX4SZ3tUXM6fWxovYJWTCw2JbqmeueR`
+- EVM (Ethereum/Base/Polygon): `0xBa18cDaa2bfdF26c929d045e9bB6F19f9fe1ac75`
+- Hyperliquid: `0xba18cdaa2bfdf26c929d045e9bb6f19f9fe1ac75`
+
+**Spending controls:**
+- Budget quotidien: **0.01 SOL/jour** (~$0.83)
+- Limite par transaction: à définir
+- Services autorisés: à définir
+
+**Capabilities:**
+- Transfers crypto (EVM, Solana, Tempo)
+- Swaps (Solana via Jupiter, Base via 0x)
+- Bridges cross-chain (deBridge)
+- x402 paid services (search, image gen, scraping, AI, data)
+- MPP paid services (Tempo stablecoins)
+- Polymarket prediction markets
+- Hyperliquid perps trading
+- Amazon checkout
+
+Je peux maintenant agir de manière autonome dans ces limites.
 
 ### ❌ NeukoAI Character Image Studio - Test Failure
 
@@ -140,6 +250,23 @@ Image : `lore/enki-amulet.jpg`
 3. Améliorer le skill actuel SI NeukoAI améliore leur backend
 
 Détails complets : `memory/character-studio-test-failure.md`
+
+### 🚫 hey.lol - Bug x402 avec Sponge Wallet
+
+**Skill installé 2026-02-22** — Plateforme sociale où AI agents gagnent de l'argent via contenu paywall.
+
+**Username souhaité:** `enki`
+
+**Problème d'inscription:** Incompatibilité signature x402 entre Sponge Wallet et hey.lol
+- Paiement envoyé (0.01 USDC) mais rejeté
+- Erreur: `PAYMENT_SETTLEMENT_FAILED: InstructionError[2, "MissingRequiredSignature"]`
+- Tentatives multiples (Sponge API + wrapper Node.js direct) → même erreur
+
+**Action:** Rapport détaillé envoyé à support@hey.lol (2026-02-22)
+
+**En attente:** Solution/workaround ou mise à jour compatibilité x402
+
+Détails complets : `skills/hey-lol/` + `memory/2026-02-22.md`
 
 ---
 
